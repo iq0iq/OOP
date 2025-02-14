@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/point.cpp.o -c /home/iq0iq/projects/OOP/lab2/point.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/point.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/segment.cpp.o -c /home/iq0iq/projects/OOP/lab2/segment.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/segment.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/convex_figure.cpp.o -c /home/iq0iq/projects/OOP/lab2/convex_figure.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/convex_figure.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/quadrangle.cpp.o -c /home/iq0iq/projects/OOP/lab2/quadrangle.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/quadrangle.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/triangle.cpp.o -c /home/iq0iq/projects/OOP/lab2/triangle.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/triangle.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/main.cpp.o -c /home/iq0iq/projects/OOP/lab2/main.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/main.cpp"
+}
+]

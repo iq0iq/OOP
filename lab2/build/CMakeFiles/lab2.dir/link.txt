@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/lab2.dir/point.cpp.o CMakeFiles/lab2.dir/segment.cpp.o CMakeFiles/lab2.dir/convex_figure.cpp.o CMakeFiles/lab2.dir/quadrangle.cpp.o CMakeFiles/lab2.dir/triangle.cpp.o CMakeFiles/lab2.dir/main.cpp.o -o lab2 
