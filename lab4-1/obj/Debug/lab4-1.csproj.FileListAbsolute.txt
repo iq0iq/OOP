@@ -1,0 +1,11 @@
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.csproj.AssemblyReference.cache
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.csproj.SuggestedBindingRedirects.cache
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4_1.Form1.resources
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4_1.Properties.Resources.resources
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.csproj.GenerateResource.cache
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.csproj.CoreCompileInputs.cache
+C:\Users\79174\source\repos\lab4-1\bin\Debug\lab4-1.exe.config
+C:\Users\79174\source\repos\lab4-1\bin\Debug\lab4-1.exe
+C:\Users\79174\source\repos\lab4-1\bin\Debug\lab4-1.pdb
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.exe
+C:\Users\79174\source\repos\lab4-1\obj\Debug\lab4-1.pdb
