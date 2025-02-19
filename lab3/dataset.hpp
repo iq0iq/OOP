@@ -23,7 +23,7 @@ public:
   T &operator[](std::size_t i);
 
 private:
-  void increase_capacity(const std::size_t new_capacity);
+  void increase_capacity(std::size_t new_capacity);
 
   T *data;
   std::size_t len;
