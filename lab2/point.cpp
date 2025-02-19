@@ -2,7 +2,7 @@
 
 point::point() : x(0), y(0) {}
 
-point::point(const double x, const double y) : x(x), y(y) {}
+point::point(double x, double y) : x(x), y(y) {}
 
 point::point(const point &other) : x(other.x), y(other.y) {}
 

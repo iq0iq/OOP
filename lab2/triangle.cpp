@@ -1,6 +1,6 @@
 #include "triangle.hpp"
 
-triangle::triangle(point a, point b, point c) {
+triangle::triangle(const point &a, const point &b, const point &c) {
   double ab = (segment{a, b}).get_length();
   double bc = (segment{b, c}).get_length();
   double ac = (segment{a, c}).get_length();
@@ -12,6 +12,9 @@ triangle::triangle(point a, point b, point c) {
     throw std::invalid_argument("Not a triangle");
   }
 }
+
+triangle::triangle(const triangle &other)
+    : a(other.a), b(other.b), c(other.c) {}
 
 triangle::~triangle() {}
 

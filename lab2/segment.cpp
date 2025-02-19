@@ -1,6 +1,6 @@
 #include "segment.hpp"
 
-segment::segment(const point first, const point second) {
+segment::segment(const point &first, const point &second) {
   if (first.x == second.x && first.y == second.y) {
     throw std::invalid_argument("Same point");
   }

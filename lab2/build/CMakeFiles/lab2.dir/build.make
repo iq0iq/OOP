@@ -97,10 +97,24 @@ CMakeFiles/lab2.dir/segment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/segment.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iq0iq/projects/OOP/lab2/segment.cpp -o CMakeFiles/lab2.dir/segment.cpp.s
 
+CMakeFiles/lab2.dir/segment_pointed.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/segment_pointed.cpp.o: /home/iq0iq/projects/OOP/lab2/segment_pointed.cpp
+CMakeFiles/lab2.dir/segment_pointed.cpp.o: CMakeFiles/lab2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/segment_pointed.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/segment_pointed.cpp.o -MF CMakeFiles/lab2.dir/segment_pointed.cpp.o.d -o CMakeFiles/lab2.dir/segment_pointed.cpp.o -c /home/iq0iq/projects/OOP/lab2/segment_pointed.cpp
+
+CMakeFiles/lab2.dir/segment_pointed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/segment_pointed.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iq0iq/projects/OOP/lab2/segment_pointed.cpp > CMakeFiles/lab2.dir/segment_pointed.cpp.i
+
+CMakeFiles/lab2.dir/segment_pointed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/segment_pointed.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iq0iq/projects/OOP/lab2/segment_pointed.cpp -o CMakeFiles/lab2.dir/segment_pointed.cpp.s
+
 CMakeFiles/lab2.dir/convex_figure.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/convex_figure.cpp.o: /home/iq0iq/projects/OOP/lab2/convex_figure.cpp
 CMakeFiles/lab2.dir/convex_figure.cpp.o: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/convex_figure.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/convex_figure.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/convex_figure.cpp.o -MF CMakeFiles/lab2.dir/convex_figure.cpp.o.d -o CMakeFiles/lab2.dir/convex_figure.cpp.o -c /home/iq0iq/projects/OOP/lab2/convex_figure.cpp
 
 CMakeFiles/lab2.dir/convex_figure.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/lab2.dir/convex_figure.cpp.s: cmake_force
 CMakeFiles/lab2.dir/quadrangle.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/quadrangle.cpp.o: /home/iq0iq/projects/OOP/lab2/quadrangle.cpp
 CMakeFiles/lab2.dir/quadrangle.cpp.o: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/quadrangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/quadrangle.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/quadrangle.cpp.o -MF CMakeFiles/lab2.dir/quadrangle.cpp.o.d -o CMakeFiles/lab2.dir/quadrangle.cpp.o -c /home/iq0iq/projects/OOP/lab2/quadrangle.cpp
 
 CMakeFiles/lab2.dir/quadrangle.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/lab2.dir/quadrangle.cpp.s: cmake_force
 CMakeFiles/lab2.dir/triangle.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/triangle.cpp.o: /home/iq0iq/projects/OOP/lab2/triangle.cpp
 CMakeFiles/lab2.dir/triangle.cpp.o: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab2.dir/triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab2.dir/triangle.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/triangle.cpp.o -MF CMakeFiles/lab2.dir/triangle.cpp.o.d -o CMakeFiles/lab2.dir/triangle.cpp.o -c /home/iq0iq/projects/OOP/lab2/triangle.cpp
 
 CMakeFiles/lab2.dir/triangle.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/lab2.dir/triangle.cpp.s: cmake_force
 CMakeFiles/lab2.dir/main.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/main.cpp.o: /home/iq0iq/projects/OOP/lab2/main.cpp
 CMakeFiles/lab2.dir/main.cpp.o: CMakeFiles/lab2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab2.dir/main.cpp.o -MF CMakeFiles/lab2.dir/main.cpp.o.d -o CMakeFiles/lab2.dir/main.cpp.o -c /home/iq0iq/projects/OOP/lab2/main.cpp
 
 CMakeFiles/lab2.dir/main.cpp.i: cmake_force
@@ -157,6 +171,7 @@ CMakeFiles/lab2.dir/main.cpp.s: cmake_force
 lab2_OBJECTS = \
 "CMakeFiles/lab2.dir/point.cpp.o" \
 "CMakeFiles/lab2.dir/segment.cpp.o" \
+"CMakeFiles/lab2.dir/segment_pointed.cpp.o" \
 "CMakeFiles/lab2.dir/convex_figure.cpp.o" \
 "CMakeFiles/lab2.dir/quadrangle.cpp.o" \
 "CMakeFiles/lab2.dir/triangle.cpp.o" \
@@ -167,13 +182,14 @@ lab2_EXTERNAL_OBJECTS =
 
 lab2: CMakeFiles/lab2.dir/point.cpp.o
 lab2: CMakeFiles/lab2.dir/segment.cpp.o
+lab2: CMakeFiles/lab2.dir/segment_pointed.cpp.o
 lab2: CMakeFiles/lab2.dir/convex_figure.cpp.o
 lab2: CMakeFiles/lab2.dir/quadrangle.cpp.o
 lab2: CMakeFiles/lab2.dir/triangle.cpp.o
 lab2: CMakeFiles/lab2.dir/main.cpp.o
 lab2: CMakeFiles/lab2.dir/build.make
 lab2: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iq0iq/projects/OOP/lab2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

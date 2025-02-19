@@ -1,6 +1,7 @@
 #include "convex_figure.hpp"
 
-double convex_figure::count_angle(point vertex, point left, point right) {
+double convex_figure::count_angle(const point &vertex, const point &left,
+                                  const point &right) {
   double v1 = vertex.x - left.x;
   double v2 = vertex.y - left.y;
   double v3 = right.x - left.x;

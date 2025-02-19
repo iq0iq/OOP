@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab2.dir/quadrangle.cpp.o.d"
   "CMakeFiles/lab2.dir/segment.cpp.o"
   "CMakeFiles/lab2.dir/segment.cpp.o.d"
+  "CMakeFiles/lab2.dir/segment_pointed.cpp.o"
+  "CMakeFiles/lab2.dir/segment_pointed.cpp.o.d"
   "CMakeFiles/lab2.dir/triangle.cpp.o"
   "CMakeFiles/lab2.dir/triangle.cpp.o.d"
   "lab2"

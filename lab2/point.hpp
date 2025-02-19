@@ -1,9 +1,10 @@
+#pragma once
 #include "figure.hpp"
 
 class point : public figure {
 public:
   point();
-  point(const double x, const double y);
+  point(double x, double y);
   point(const point &other);
   ~point();
 

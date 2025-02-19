@@ -11,5 +11,6 @@ public:
   virtual double get_area() const = 0;
 
 protected:
-  double count_angle(point vertex, point left, point right);
+  double count_angle(const point &vertex, const point &left,
+                     const point &right);
 };

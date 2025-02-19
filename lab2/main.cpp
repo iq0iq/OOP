@@ -1,4 +1,5 @@
 #include "quadrangle.hpp"
+#include "segment_pointed.hpp"
 #include "triangle.hpp"
 #include <iostream>
 
@@ -9,6 +10,8 @@ int main() {
   std::cout << "centre of a segment (0, 0), (1, 1) : "
             << something->get_centre().first << ' '
             << something->get_centre().second << std::endl;
+  segment_pointed seg2{0, 0, 1, 1};
+  something = &seg2;
 
   point p0{0, 0};
   figure &some_figure = p0;

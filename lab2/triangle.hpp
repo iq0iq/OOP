@@ -3,7 +3,8 @@
 class triangle : public convex_figure {
 public:
   triangle() = delete;
-  triangle(point a, point b, point c);
+  triangle(const point &a, const point &b, const point &c);
+  triangle(const triangle &other);
   ~triangle();
 
 private:

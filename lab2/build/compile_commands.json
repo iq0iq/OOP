@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/iq0iq/projects/OOP/lab2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/segment_pointed.cpp.o -c /home/iq0iq/projects/OOP/lab2/segment_pointed.cpp",
+  "file": "/home/iq0iq/projects/OOP/lab2/segment_pointed.cpp"
+},
+{
+  "directory": "/home/iq0iq/projects/OOP/lab2/build",
   "command": "/usr/bin/clang++   -g -std=gnu++2a -o CMakeFiles/lab2.dir/convex_figure.cpp.o -c /home/iq0iq/projects/OOP/lab2/convex_figure.cpp",
   "file": "/home/iq0iq/projects/OOP/lab2/convex_figure.cpp"
 },

@@ -3,7 +3,8 @@
 class quadrangle : public convex_figure {
 public:
   quadrangle() = delete;
-  quadrangle(point a, point b, point c, point d);
+  quadrangle(const point &a, const point &b, const point &c, const point &d);
+  quadrangle(const quadrangle &other);
   ~quadrangle();
 
 private:

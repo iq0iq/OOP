@@ -1,6 +1,7 @@
 #include "quadrangle.hpp"
 
-quadrangle::quadrangle(point a, point b, point c, point d) {
+quadrangle::quadrangle(const point &a, const point &b, const point &c,
+                       const point &d) {
   double a_angle = count_angle(d, a, b);
   double b_angle = count_angle(a, b, c);
   double c_angle = count_angle(b, c, d);
@@ -15,6 +16,9 @@ quadrangle::quadrangle(point a, point b, point c, point d) {
     throw std::invalid_argument("Not convex");
   }
 }
+
+quadrangle::quadrangle(const quadrangle &other)
+    : a(other.a), b(other.b), c(other.c), d(other.d) {}
 
 quadrangle::~quadrangle() {}
 

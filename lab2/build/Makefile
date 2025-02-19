@@ -249,6 +249,30 @@ segment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/segment.cpp.s
 .PHONY : segment.cpp.s
 
+segment_pointed.o: segment_pointed.cpp.o
+.PHONY : segment_pointed.o
+
+# target to build an object file
+segment_pointed.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/segment_pointed.cpp.o
+.PHONY : segment_pointed.cpp.o
+
+segment_pointed.i: segment_pointed.cpp.i
+.PHONY : segment_pointed.i
+
+# target to preprocess a source file
+segment_pointed.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/segment_pointed.cpp.i
+.PHONY : segment_pointed.cpp.i
+
+segment_pointed.s: segment_pointed.cpp.s
+.PHONY : segment_pointed.s
+
+# target to generate assembly for a file
+segment_pointed.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/segment_pointed.cpp.s
+.PHONY : segment_pointed.cpp.s
+
 triangle.o: triangle.cpp.o
 .PHONY : triangle.o
 
@@ -297,6 +321,9 @@ help:
 	@echo "... segment.o"
 	@echo "... segment.i"
 	@echo "... segment.s"
+	@echo "... segment_pointed.o"
+	@echo "... segment_pointed.i"
+	@echo "... segment_pointed.s"
 	@echo "... triangle.o"
 	@echo "... triangle.i"
 	@echo "... triangle.s"
